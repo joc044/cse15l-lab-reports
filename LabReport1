@@ -1,1 +1,21 @@
-t
+# Part 1 - Installing VScode
+## Haven't installed
+Go to the Visual Studio Code website([Link](https://code.visualstudio.com/)) and follow the 
+instructions to install it on your computer. (Notice: There are three versions of downloading. 
+One for macOS system. Another for Windows system. The other for Linux x64 system.)
+
+After finishing installing, follow the steps in Already installed part.
+
+## Already installed
+Open the Visual Studio Code on your computer. After opening, you will see the following 
+window on your screen.(It might be a slightly different because of different computer system.)
+![Image](openVScode.jpg)
+
+# Part 2 - Remotely Connecting
+Now, we will learn how to use VScode/terminal to remotely connect to a computer.
+## For Windows system
+Install [`git`](https://gitforwindows.org/) first. After finishing installing, 
+follow the steps in [Using Bash on Windows in VScode](https://stackoverflow.com/questions/42606837/how-do-i-use-bash-on-windows-from-the-visual-studio-code-integrated-terminal/50527994#50527994) 
+to set your default terminal to `git bash` in the Visual Studio Code.
+
+# Part 3 - Trying Some Commands
