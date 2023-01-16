@@ -13,9 +13,34 @@ window on your screen.(It might be a slightly different because of different com
 
 # Part 2 - Remotely Connecting
 Now, we will learn how to use VScode/terminal to remotely connect to a computer.
+
 ## For Windows system
-Install [`git`](https://gitforwindows.org/) first. After finishing installing, 
-follow the steps in [Using Bash on Windows in VScode](https://stackoverflow.com/questions/42606837/how-do-i-use-bash-on-windows-from-the-visual-studio-code-integrated-terminal/50527994#50527994) 
+(If your computer system is not Windows, skip this part and jump to Start connect part.)
+
+Install [`git`](https://gitforwindows.org/) first. After finishing installing, follow the steps in 
+[Using Bash on Windows in VScode](https://stackoverflow.com/questions/42606837/how-do-i-use-bash-on-windows-from-the-visual-studio-code-integrated-terminal/50527994#50527994) 
 to set your default terminal to `git bash` in the Visual Studio Code.
 
+## Start connect
+1. Open a terminal in VScode.(Ctrl or Command + `, or use Terminal tab on the upper bar and choose New Terminal option.)
+2. Type in the following text in the terminal and press enter.
+`$ ssh cs15lwi23ani@ieng6.ucsd.edu`
+(Notice: You do not need to type in `$` because it already exists in the terminal. The letter after s is one. The letter after 5 is l, lowercase of L.
+Remember to replace ani by the letters in your course-specific account.)
+3. If this is the first time you connect to this server, you will see the following message appear in the terminal. 
+If this is not the first time you connect to this server, jump to step 5.
+```
+$ ssh cs15lwi23ani@ieng6.ucsd.edu
+The authenticity of host 'ieng6.ucsd.edu (128.54.70.227)' can't be established.
+RSA key fingerprint is SHA256:ksruYwhnYH+sySHnHAtLUHngrPEyZTDl/1x99wUQcec.
+Are you sure you want to continue connecting (yes/no/[fingerprint])? 
+```
+4. Type in `yes` and press enter. 
+5. The terminal will ask you to enter password. Type in your password.
+(Notice: When you are typing your password, it is normal that you do not see anything appear or change in the terminal.)
+
+If you forget your password, please follow the instructions 
+[here](https://docs.google.com/document/d/1hs7CyQeh-MdUfM9uv99i8tqfneos6Y8bDU0uhn1wqho/edit) to reset your password.
+6. After logging in successfully, you will see the following window on your screen.(The window on your screen might be slightly different than mine.)
+![Image](openVScode.jpg)
 # Part 3 - Trying Some Commands
