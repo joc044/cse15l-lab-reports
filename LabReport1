@@ -63,7 +63,9 @@ If you forget your password, please follow the instructions
 * cd <path>
 Change the current Working Directory to the path you enter
 * cd ~
+Change the current Working Directory to Home Directory
 * cd ..
+Change the current Working Directory to the directory "above" or "outside" the current directory
 * ls
 List all of the files and folders in the current Working Directory
 * ls -lat
@@ -72,5 +74,8 @@ List all of the files and folders in the current Working Directory
 Print the current Working Directory
 * cat <path>
 Print the contents of the file given by the path you enter
+
+## Example:
+![Image](Try.jpg)
 
 **Notice** Please feel free to ask whenever you have question.
