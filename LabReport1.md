@@ -48,7 +48,7 @@ Are you sure you want to continue connecting (yes/no/[fingerprint])?
 5. The terminal will ask you to enter password. Type in your password.
 (Notice: When you are typing your password, it is normal that you do not see anything appear or change in the terminal.)
 ![Image](Password.jpg)
-If you forget your password, please follow the instructions 
+Notice: If you forget your password, please follow the instructions 
 [here](https://docs.google.com/document/d/1hs7CyQeh-MdUfM9uv99i8tqfneos6Y8bDU0uhn1wqho/edit) to reset your password.
 6. After logging in successfully, you will see the following window on your screen.(The window on your screen might be slightly different than mine.)
 ![Image](SuccessLogin.jpg)
