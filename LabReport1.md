@@ -43,7 +43,7 @@ The authenticity of host 'ieng6.ucsd.edu (128.54.70.227)' can't be established.
 RSA key fingerprint is SHA256:ksruYwhnYH+sySHnHAtLUHngrPEyZTDl/1x99wUQcec.
 Are you sure you want to continue connecting (yes/no/[fingerprint])? 
 ```
-Because this is my second time to connect to this server, I do not have picture to show on.
+(Because this is my second time to connect to this server, I do not have picture to show on.)
 4. Type in `yes` and press enter.
 5. The terminal will ask you to enter password. Type in your password.
 (Notice: When you are typing your password, it is normal that you do not see anything appear or change in the terminal.)
