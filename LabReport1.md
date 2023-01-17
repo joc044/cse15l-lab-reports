@@ -50,7 +50,7 @@ Are you sure you want to continue connecting (yes/no/[fingerprint])?
 [here](https://docs.google.com/document/d/1hs7CyQeh-MdUfM9uv99i8tqfneos6Y8bDU0uhn1wqho/edit) to reset your password.
 6. After logging in successfully, you will see the following window on your screen.(The window on your screen might be slightly different than mine.)
 ![Image](SuccessLogin.jpg)
-`Notice`: If the terminal keep ask you to enter your password, then the password you type in might be wrong.)
+`Notice`: If the terminal keep ask you to enter your password, then the password you type in might be wrong.
 ![Image](WrongPassword.jpg)
 7. Congratulation! You already remotely connect to a computer in the CSE basement. Any commands you run will also run on that computer.
 (Your computer is called the client, the computer in the CSE basement is called the server.)
