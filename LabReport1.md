@@ -33,8 +33,7 @@ to set your default terminal to `git bash` in the Visual Studio Code.
 ![Image](OpenTerminal.jpg)
 2. Type in the following text in the terminal and press enter.
 `$ ssh cs15lwi23ani@ieng6.ucsd.edu`
-(Notice: You do not need to type in `$` because it already exists in the terminal. The letter after s is one. The letter after 5 is l, lowercase of L.
-Remember to replace ani by the letters in your course-specific account.)
+(Notice: You do not need to type in `$` because it already exists in the terminal. The letter after s is one. The letter after 5 is l, lowercase of L. Remember to replace ani by the letters in your course-specific account.)
 ![Image](Server.jpg)
 3. If this is the first time you connect to this server, you will see the following message appear in the terminal. 
 If this is not the first time you connect to this server, jump to step 5.
