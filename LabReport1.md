@@ -69,16 +69,16 @@ Are you sure you want to continue connecting (yes/no/[fingerprint])?
 ## Example:
 ![Image](Try.jpg)
 1. The first command I ran is `pwd` (in line 29), it prints out the current Working Directory, and the output should be `/home/linux/ieng6/cs15lwi23/cs15lwi23ani`, which is also refer as Home Directory. (`Notice`: The output shown on your terminal might be slightly different than mine. It will be `/home/linux/ieng6/cs15lwi23/cs15lwi23...`. The system will replace ani by the letters in your course-specific account.)
-3. The second command I ran is `cd..` (in line 30), it changes the current Working Directory to the directory "above" or "outside" the current directory, and no output is shown.
-4. The third command I ran is `pwd` (in line 31), it prints out the current Working Directory. Because I changed the current Working Directory in last command, the output should be `/home/linux/ieng6/cs15lwi23`, which is the directory "outside" Home Directory(`/home/linux/ieng6/cs15lwi23/cs15lwi23ani`).
-5. The fourth command I ran is `cd ~` (in line 32), it changes the current Working Directory to Home Directory, and no output is shown.
-6. The fifth command I ran is `pwd` (in line 33), it prints out the current Working Directory. Because I changed the current Working Directory to Home Directory in last command, the output should be `/home/linux/ieng6/cs15lwi23/cs15lwi23ani`.
-7. The sixth command I ran is `ls` (in line 34), it lists all of the files, folders, and directory in the current Working Directory, and the output should be `perl5`.
-8. The seventh command I ran is `ls -lat` (in line 35) and the output should be `total 128...`
-9. The eighth command I ran is `ls -a` (in line 36) and the output should be `. .bash_profile .config .local...`
-10. The nineth command I ran is `pwd` (in line 37), it prints out the current Working Directory, and the output should be `/home/linux/ieng6/cs15lwi23/cs15lwi23ani` since I do not change the current Working Directory between line 34 to line 37. Therefore, the output should be the same as the output in line 33.
-11. The tenth command I ran is `cat per15` (in line 38), it prints out the contents of the file given by the path I enter, and the output should be `cat: per15: No such file or directory`. Since the path I enter is wrong, the output shows me that the path I enter cannot be found.
-12. The last command I ran is `cat perl5` (in line 39), it prints out the contents of the file given by the path I enter, and the output should be `cat: perl5: Is a directory`. Since the path I enter is not the file(I.e .java/.text), the output shows me that the path I enter is a directory. (`Notice`: The difference between line 38 and line 39 is that the path I enter in line 38 is `per15`(one five) and the path I enter in line 39 is `perl5`(L five).)
+2. The second command I ran is `cd..` (in line 30), it changes the current Working Directory to the directory "above" or "outside" the current directory, and no output is shown.
+3. The third command I ran is `pwd` (in line 31), it prints out the current Working Directory. Because I changed the current Working Directory in last command, the output should be `/home/linux/ieng6/cs15lwi23`, which is the directory "outside" Home Directory(`/home/linux/ieng6/cs15lwi23/cs15lwi23ani`).
+4. The fourth command I ran is `cd ~` (in line 32), it changes the current Working Directory to Home Directory, and no output is shown.
+5. The fifth command I ran is `pwd` (in line 33), it prints out the current Working Directory. Because I changed the current Working Directory to Home Directory in last command, the output should be `/home/linux/ieng6/cs15lwi23/cs15lwi23ani`.
+6. The sixth command I ran is `ls` (in line 34), it lists all of the files, folders, and directory in the current Working Directory, and the output should be `perl5`.
+7. The seventh command I ran is `ls -lat` (in line 35) and the output should be `total 128...`.
+8. The eighth command I ran is `ls -a` (in line 36) and the output should be `. .bash_profile .config .local...`.
+9. The nineth command I ran is `pwd` (in line 37), it prints out the current Working Directory, and the output should be `/home/linux/ieng6/cs15lwi23/cs15lwi23ani` since I do not change the current Working Directory between line 34 to line 37. Therefore, the output should be the same as the output in line 33.
+10. The tenth command I ran is `cat per15` (in line 38), it prints out the contents of the file given by the path I enter, and the output should be `cat: per15: No such file or directory`. Since the path I enter is wrong, the output shows me that the path I enter cannot be found.
+11. The last command I ran is `cat perl5` (in line 39), it prints out the contents of the file given by the path I enter, and the output should be `cat: perl5: Is a directory`. Since the path I enter is not the file(I.e .java/.text), the output shows me that the path I enter is a directory. (`Notice`: The difference between line 38 and line 39 is that the path I enter in line 38 is `per15`(one five) and the path I enter in line 39 is `perl5`(L five).)
 
 `pwd` is the useful command to check the current Working Directory. Therefore, whenever I make some changes on the current Working Directory, I will use it to check.
 
