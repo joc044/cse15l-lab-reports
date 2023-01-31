@@ -37,6 +37,7 @@ After we make the specific request(Here means add "Hi" to web server.), the valu
 There are some bugs in two methods, `reverseInPlace` and `reversed`, in `ArrayExamples.java`. I choose to modify `reverseInPlace` in order to identify the bugs, the failure-inducing input, and the symptom for it.
 
 1. Failure-inducing input:
+
 ```
 input:
 {1,2,3}
@@ -51,6 +52,7 @@ code:
 ```
 
 2. Input that does not induce a failure:
+
 ```
 input:
 {3}
@@ -69,6 +71,7 @@ code:
 
 4. The bug:
 - Before:
+
 ```
 static void reverseInPlace(int[] arr) {
     for(int i = 0; i < arr.length; i += 1) {
@@ -78,6 +81,7 @@ static void reverseInPlace(int[] arr) {
 ```
 
 - After:
+
 ```
 static void reverseInPlace(int[] arr) {
     for(int i = 0; i != arr.length/2; i += 1) {
