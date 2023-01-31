@@ -33,44 +33,56 @@ After we make the specific request(Here means add "Hi" to web server.), the valu
 There are some bugs in two methods, `reverseInPlace` and `reversed`, in `ArrayExamples.java`. I choose to modify `reverseInPlace` in order to identify the bugs, the failure-inducing input, and the symptom for it.
 
 1. Failure-inducing input:
-····input:{1,2,3}
-····code:
-····@Test
-····  public void testReverseInPlace2() {
-····    int[] input2 = {1,2,3};
-····    ArrayExamples.reverseInPlace(input2);
-····    assertArrayEquals(new int[]{3,2,1}, input2);
-····  }
+```
+input:
+{1,2,3}
+
+code:
+@Test
+  public void testReverseInPlace2() {
+    int[] input2 = {1,2,3};
+    ArrayExamples.reverseInPlace(input2);
+    assertArrayEquals(new int[]{3,2,1}, input2);
+  }
+```
 
 2. Input that does not induce a failure:
-····input:{3}
-····code:
-····@Test
-····  public void testReverseInPlace1() {
-····    int[] input1 = { 3 };
-····    ArrayExamples.reverseInPlace(input1);
-····    assertArrayEquals(new int[]{ 3 }, input1);
-····	}
+```
+input:
+{3}
+
+code:
+@Test
+  public void testReverseInPlace1() {
+    int[] input1 = { 3 };
+    ArrayExamples.reverseInPlace(input1);
+    assertArrayEquals(new int[]{ 3 }, input1);
+	}
+```
 
 3. Symptom:
 ![image](Symptom.jpg)
 
 4. The bug:
 - Before:
-····static void reverseInPlace(int[] arr) {
-····    for(int i = 0; i < arr.length; i += 1) {
-····      arr[i] = arr[arr.length - i - 1];
-····    }
-····  }
+```
+static void reverseInPlace(int[] arr) {
+    for(int i = 0; i < arr.length; i += 1) {
+      arr[i] = arr[arr.length - i - 1];
+    }
+  }
+```
 
 - After:
-····static void reverseInPlace(int[] arr) {
-····    for(int i = 0; i != arr.length/2; i += 1) {
-····      int temp = arr[i];
-····      arr[i] = arr[arr.length - i -1];
-····      arr[arr.length - i - 1] = temp;
-····    }
-····  }
+```
+static void reverseInPlace(int[] arr) {
+    for(int i = 0; i != arr.length/2; i += 1) {
+      int temp = arr[i];
+      arr[i] = arr[arr.length - i -1];
+      arr[arr.length - i - 1] = temp;
+    }
+  }
+```
 
 The reason why the fix addresses the issue is because in each loop, I let the value of the lower index stored in `int temp`. By doing this, I will not miss the value of the lower index and am able to assign it to the upper index. When i == arr.length/2, all elements are reversed. Therefore, I can break out the loop.
 
