@@ -8,9 +8,11 @@ I wrote a web server called StringServer that the user can keep adding a single 
 ![image](StringServer.jpg)
 
 `Before making any requests:`
+
 ![image](original.jpg)
 
 `After making two requests:`
+
 ![image](addHello.jpg)
 1. Which methods in my code are called for this screenshot?
 For this screenshot, when I use `/add-message?s=Hello` to make the request, the `String handleRequest(URI url)` method is called.
