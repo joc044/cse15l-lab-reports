@@ -70,6 +70,7 @@ code:
 ![image](Symptom.jpg)
 
 4. The bug:
+
 - Before:
 
 ```
