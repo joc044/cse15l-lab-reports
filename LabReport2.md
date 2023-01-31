@@ -2,6 +2,7 @@ Hello, everyone. Today we will learn how to write a web server in part 1, learn 
 
 # Part 1 - Write a web server
 I wrote a web server called StringServer that the user can keep adding a single string to web server by each request.
+
 `Code:`
 ![image](StringServer.jpg)
 
@@ -57,7 +58,7 @@ code:
     int[] input1 = { 3 };
     ArrayExamples.reverseInPlace(input1);
     assertArrayEquals(new int[]{ 3 }, input1);
-	}
+  }
 ```
 
 3. Symptom:
