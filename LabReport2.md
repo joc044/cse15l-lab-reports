@@ -4,6 +4,7 @@ Hello, everyone. Today we will learn how to write a web server in part 1, learn 
 I wrote a web server called StringServer that the user can keep adding a single string to web server by each request.
 
 `Code:`
+
 ![image](StringServer.jpg)
 
 `Before making any requests:`
