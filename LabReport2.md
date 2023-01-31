@@ -35,6 +35,7 @@ After we make the specific request(Here means add "Hi" to web server.), the valu
 
 # Part 2 - Symptoms and Failure-inducing Inputs
 There are some bugs in two methods, `reverseInPlace` and `reversed`, in `ArrayExamples.java`. I choose to modify `reverseInPlace` in order to identify the bugs, the failure-inducing input, and the symptom for it.
+
 1. Failure-inducing input:
 
 ```
@@ -49,6 +50,7 @@ code:
     assertArrayEquals(new int[]{3,2,1}, input2);
   }
 ```
+
 2. Input that does not induce a failure:
 
 ```
@@ -63,8 +65,10 @@ code:
     assertArrayEquals(new int[]{ 3 }, input1);
   }
 ```
+
 3. Symptom:
 ![image](Symptom.jpg)
+
 4. The bug:
 
 - Before:
