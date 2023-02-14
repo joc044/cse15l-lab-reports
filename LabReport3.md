@@ -1,6 +1,6 @@
 Hello, everyone. Today we will discuss the `find` command-line options.
 
-`find` is a useful command that help the user to find the files, the words in specified files, and the directories.
+`find` is a useful command that help the user to find the files and the directories.
 ## Before start:
 In order to show the `find` command-line options and its output easily, we need to set up our evironment first.
 1. Use ctrl or Command + ` to open a new bash terminal in Visual Studio Code.
@@ -229,7 +229,19 @@ The output shows the paths of all files in `travel_guides/berlitz1` directory fr
 `-size` is used to find the file by its size. `b` means 512 Kb blocks. `c` means bytes. `k` means kilobytes. `M` means megabytes. `G` means gigabytes. 
 It is useful because we can search for the files based on their size. 
 ## Example:
-1. Find the files by the size range.
+1. Find the file with the specific size.
+command:
+```
+find ./written_2/travel_guides/berlitz1 -type f -size 73k
+```
+`find ./written_2/travel_guides/berlitz1 -type f -size 73k` find the file with the size 73 kilobytes in `travel_guides/berlitz1` directory from `./written_2`. 
+output:
+```
+./written_2/travel_guides/berlitz1/WhereToMallorca.txt
+```
+The output shows the path of the found file.
+
+2. Find the files by the size range.
 command:
 ```
 find ./written_2/non-fiction -type f -size +40k -size +50k
@@ -257,35 +269,30 @@ output:
 ```
 The output shows the paths of all of the files with the size range between 40 kilobytes and 50 kilobytes in `non-fiction` directory from `./written_2`. 
 
-2. Find the file.
-command:
-```
-```
-output:
-```
-```
-The output shows the paths of all files in `travel_guides/berlitz1` directory from `./written_2`.
-
 (`Source`: https://linuxhint.com/use-the-find-command-in-linux-to-search-files/)
-# The fourth `find` command-line options is `-`.
-`-` is used to
+# The fourth `find` command-line options is `-delete`.
+`-delete` is used to delete the files or the empty directory. It is useful because we can delete the files by a single command line, instead of deleting them one by one.
 ## Example:
-1.
+1. Delete the files.
 command:
 ```
+find ./written_2/non-fiction/OUP/Rybczynsski -name *.txt -delete
 ```
-output:
-```
-```
-The output shows
+`find ./written_2/non-fiction/OUP/Rybczynsski -name *.txt -delete` delete all of the .txt files in `non-fiction/OUP/Rybczynsski` directory from `./written_2`.
 
-2.
+output:
+No output is shown.
+
+2. Delete the empty directory.
 command:
 ```
+find ./written_2/non-fiction/OUP -name Rybczynski -delete
 ```
+`find ./written_2/non-fiction/OUP -name Rybczynski -delete` delete the empty directory `Rybczynski` in `non-fiction/OUP` directory from `./written_2`.
+
+(`Notice`: `Rybczynski` is the empty directory since we delete all of the .txt files in it from last example.)
+
 output:
-```
-```
-The output shows
+No output is shown.
 
 (`Source`: https://linuxhint.com/use-the-find-command-in-linux-to-search-files/)
