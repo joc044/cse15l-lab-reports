@@ -24,7 +24,7 @@ Remember to replace ani by the letters in your course-specific account.)
 # The first `find` command-line options is `-name`.
 `-name` is used to search a file with specific name or search the specific type of files in the directory.
 ## Example:
-1. Search the specific type of files in the directory
+1) Search the specific type of files in the directory
 
 command:
 ```
@@ -83,7 +83,7 @@ output:
 The output shows the paths of all .txt files in `non-fiction` directory from `./written_2`.
 It is useful because the output is like the table of contents for specific type of files in the directory.
 
-2. Search a file with specific name
+2) Search a file with specific name
 
 command: 
 ```
@@ -104,7 +104,7 @@ It is useful because we can know where the specific file is located by a single 
 `-type` is used to find the file by its type. `d` means directory. `f` means file. `s` means sockets. 
 It is useful because we can find all of the files, the directories, or the sockets by a single command line. 
 ## Example:
-1. Find the directories.
+1) Find the directories.
 
 command:
 ```
@@ -120,7 +120,7 @@ output:
 ```
 The output shows the paths of all directories in `travel_guides` directory from `./written_2`.
 
-2. Find the files.
+2) Find the files.
 
 command:
 ```
@@ -240,7 +240,7 @@ The output shows the paths of all files in `travel_guides/berlitz1` directory fr
 `-size` is used to find the file by its size. `b` means 512 Kb blocks. `c` means bytes. `k` means kilobytes. `M` means megabytes. `G` means gigabytes. 
 It is useful because we can search for the files based on their size. 
 ## Example:
-1. Find the file with the specific size.
+1) Find the file with the specific size.
 
 command:
 ```
@@ -254,7 +254,7 @@ output:
 ```
 The output shows the path of the found file.
 
-2. Find the files by the size range.
+2) Find the files by the size range.
 
 command:
 ```
@@ -289,7 +289,7 @@ The output shows the paths of all of the files with the size range between 40 ki
 # The fourth `find` command-line options is `-delete`.
 `-delete` is used to delete the files or the empty directory. It is useful because we can delete the files by a single command line, instead of deleting them one by one.
 ## Example:
-1. Delete the files.
+1) Delete the files.
 
 command:
 ```
@@ -300,7 +300,7 @@ find ./written_2/non-fiction/OUP/Rybczynsski -name *.txt -delete
 output:
 No output is shown.
 
-2. Delete the empty directory.
+2) Delete the empty directory.
 
 command:
 ```
