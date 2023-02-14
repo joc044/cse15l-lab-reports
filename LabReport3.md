@@ -79,6 +79,7 @@ output:
 ```
 The output shows the paths of all .txt files in `non-fiction` directory from `./written_2`.
 It is useful because the output is like the table of contents for specific type of files in the directory.
+
 2. Search a file with specific name
 command: 
 ```
@@ -109,6 +110,7 @@ output:
 ./written_2/travel_guides/berlitz2
 ```
 The output shows the paths of all directories in `travel_guides` directory from `./written_2`.
+
 2. Find the files.
 command:
 ```
@@ -252,6 +254,7 @@ output:
 ./written_2/non-fiction/OUP/Rybczynski/ch3.txt
 ```
 The output shows the paths of all of the files with the size range between 40 kilobytes and 50 kilobytes in `non-fiction` directory from `./written_2`. 
+
 2. Find the file.
 command:
 ```
@@ -272,6 +275,7 @@ output:
 ```
 ```
 The output shows
+
 2.
 command:
 ```
