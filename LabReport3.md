@@ -13,7 +13,9 @@ Remember to replace ani by the letters in your course-specific account.)
 ![Image](password1.jpg)
 (`Notice`: When you are typing your password, it is normal that you do not see anything appear or change in the terminal.)
 4. Successful log in:
+
 ![Image](login success.jpg)
+
 (`Notice`: If the terminal keep ask you to enter your password, then the password you type in might be wrong.)
 5. Use `git clone https://github.com/ucsd-cse15l-w23/skill-demo1-data` to clone the file into our course-specific account.
 ![Image](clone.jpg)
