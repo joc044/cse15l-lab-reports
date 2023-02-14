@@ -92,6 +92,7 @@ output:
 ```
 `./written_2/non-fiction/OUP/Castro/chA.txt` shows the path of the file/where the file is located.
 It is useful because we can know where the specific file is located by a single command line, instead of opening all of the files in order to find it.
+
 (`Source`: https://www.geeksforgeeks.org/find-command-in-linux-with-examples/)
 # The second `find` command-line options is `-type`.
 `-type` is used to find the file by its type. `d` means directory. `f` means file. `s` means sockets. 
@@ -222,6 +223,7 @@ output:
 ./written_2/travel_guides/berlitz1/WhereToMallorca.txt
 ```
 The output shows the paths of all files in `travel_guides/berlitz1` directory from `./written_2`.
+
 (`Source`: https://linuxhint.com/use-the-find-command-in-linux-to-search-files/)
 # The third `find` command-line options is `-size`.
 `-size` is used to find the file by its size. `b` means 512 Kb blocks. `c` means bytes. `k` means kilobytes. `M` means megabytes. `G` means gigabytes. 
@@ -263,6 +265,7 @@ output:
 ```
 ```
 The output shows the paths of all files in `travel_guides/berlitz1` directory from `./written_2`.
+
 (`Source`: https://linuxhint.com/use-the-find-command-in-linux-to-search-files/)
 # The fourth `find` command-line options is `-`.
 `-` is used to
@@ -284,4 +287,5 @@ output:
 ```
 ```
 The output shows
+
 (`Source`: https://linuxhint.com/use-the-find-command-in-linux-to-search-files/)
