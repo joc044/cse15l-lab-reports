@@ -30,6 +30,7 @@ command:
 find ./written_2/non-fiction -name *.txt
 ```
 `find ./written_2/non-fiction -name *.txt` search for all of .txt files in `non-fiction` directory from `./written_2`. 
+
 output:
 ```
 ./written_2/non-fiction/OUP/Abernathy/ch1.txt
@@ -88,6 +89,7 @@ command:
 find -name chA.txt
 ```
 `find -name chA.txt` search for `chA.txt` in `skill-demo1-data` directory. 
+
 output:
 ```
 ./written_2/non-fiction/OUP/Castro/chA.txt
@@ -107,6 +109,7 @@ command:
 find ./written_2/travel_guides -type d
 ```
 `find ./written_2/travel_guides -type d` find all of the directories in `travel_guides` directory from `./written_2`. 
+
 output:
 ```
 ./written_2/travel_guides
@@ -122,6 +125,7 @@ command:
 find ./written_2/travel_guides/berlitz1 -type f
 ```
 `find ./written_2/travel_guides/berlitz1 -type f` find all of the files in `travel_guides/berlitz1` directory from `./written_2`.
+
 output:
 ```
 ./written_2/travel_guides/berlitz1/HandRHawaii.txt      
@@ -240,6 +244,7 @@ command:
 find ./written_2/travel_guides/berlitz1 -type f -size 73k
 ```
 `find ./written_2/travel_guides/berlitz1 -type f -size 73k` find the file with the size 73 kilobytes in `travel_guides/berlitz1` directory from `./written_2`. 
+
 output:
 ```
 ./written_2/travel_guides/berlitz1/WhereToMallorca.txt
@@ -253,6 +258,7 @@ command:
 find ./written_2/non-fiction -type f -size +40k -size +50k
 ```
 `find ./written_2/non-fiction -type f -size +40k -size +50k` find all of the files with the size range between 40 kilobytes and 50 kilobytes in `non-fiction` directory from `./written_2`. 
+
 output:
 ```
 ./written_2/non-fiction/OUP/Abernathy/ch8.txt
