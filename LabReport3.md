@@ -3,7 +3,7 @@ Hello, everyone. Today we will discuss the `find` command-line options.
 `find` is a useful command that help the user to find the files and the directories.
 ## Before start:
 In order to show the `find` command-line options and its output easily, we need to set up our evironment first.
-1. Use ctrl or Command + ` to open a new bash terminal in Visual Studio Code.
+1. Use Ctrl or Command + ` to open a new bash terminal in Visual Studio Code.
 2. Log into your course-specific ieng6 account:
 ![Image](account.jpg)
 (`Notice`:You do not need to type in `$` because it already exists in the terminal. 
