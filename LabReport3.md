@@ -24,6 +24,7 @@ Remember to replace ani by the letters in your course-specific account.)
 `-name` is used to search a file with specific name or search the specific type of files in the directory.
 ## Example:
 1. Search the specific type of files in the directory
+
 command:
 ```
 find ./written_2/non-fiction -name *.txt
@@ -81,6 +82,7 @@ The output shows the paths of all .txt files in `non-fiction` directory from `./
 It is useful because the output is like the table of contents for specific type of files in the directory.
 
 2. Search a file with specific name
+
 command: 
 ```
 find -name chA.txt
@@ -99,6 +101,7 @@ It is useful because we can know where the specific file is located by a single 
 It is useful because we can find all of the files, the directories, or the sockets by a single command line. 
 ## Example:
 1. Find the directories.
+
 command:
 ```
 find ./written_2/travel_guides -type d
@@ -113,6 +116,7 @@ output:
 The output shows the paths of all directories in `travel_guides` directory from `./written_2`.
 
 2. Find the files.
+
 command:
 ```
 find ./written_2/travel_guides/berlitz1 -type f
@@ -230,6 +234,7 @@ The output shows the paths of all files in `travel_guides/berlitz1` directory fr
 It is useful because we can search for the files based on their size. 
 ## Example:
 1. Find the file with the specific size.
+
 command:
 ```
 find ./written_2/travel_guides/berlitz1 -type f -size 73k
@@ -242,6 +247,7 @@ output:
 The output shows the path of the found file.
 
 2. Find the files by the size range.
+
 command:
 ```
 find ./written_2/non-fiction -type f -size +40k -size +50k
@@ -274,6 +280,7 @@ The output shows the paths of all of the files with the size range between 40 ki
 `-delete` is used to delete the files or the empty directory. It is useful because we can delete the files by a single command line, instead of deleting them one by one.
 ## Example:
 1. Delete the files.
+
 command:
 ```
 find ./written_2/non-fiction/OUP/Rybczynsski -name *.txt -delete
@@ -284,6 +291,7 @@ output:
 No output is shown.
 
 2. Delete the empty directory.
+
 command:
 ```
 find ./written_2/non-fiction/OUP -name Rybczynski -delete
