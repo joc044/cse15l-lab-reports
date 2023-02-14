@@ -20,6 +20,7 @@ Remember to replace ani by the letters in your course-specific account.)
 (`Notice`: If you clone the file successfully, your screen should be the same as the above image.)
 6. Use `cd skill-demo1-data` to switch the current working directory to skill-demo1-data. 
 7. Complete set up the evironment and ready for showing find command-line.
+
 # The first `find` command-line options is `-name`.
 `-name` is used to search a file with specific name or search the specific type of files in the directory.
 ## Example:
@@ -98,6 +99,7 @@ output:
 It is useful because we can know where the specific file is located by a single command line, instead of opening all of the files in order to find it.
 
 (`Source`: https://www.geeksforgeeks.org/find-command-in-linux-with-examples/)
+
 # The second `find` command-line options is `-type`.
 `-type` is used to find the file by its type. `d` means directory. `f` means file. `s` means sockets. 
 It is useful because we can find all of the files, the directories, or the sockets by a single command line. 
@@ -233,6 +235,7 @@ output:
 The output shows the paths of all files in `travel_guides/berlitz1` directory from `./written_2`.
 
 (`Source`: https://linuxhint.com/use-the-find-command-in-linux-to-search-files/)
+
 # The third `find` command-line options is `-size`.
 `-size` is used to find the file by its size. `b` means 512 Kb blocks. `c` means bytes. `k` means kilobytes. `M` means megabytes. `G` means gigabytes. 
 It is useful because we can search for the files based on their size. 
@@ -282,6 +285,7 @@ output:
 The output shows the paths of all of the files with the size range between 40 kilobytes and 50 kilobytes in `non-fiction` directory from `./written_2`. 
 
 (`Source`: https://linuxhint.com/use-the-find-command-in-linux-to-search-files/)
+
 # The fourth `find` command-line options is `-delete`.
 `-delete` is used to delete the files or the empty directory. It is useful because we can delete the files by a single command line, instead of deleting them one by one.
 ## Example:
