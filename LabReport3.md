@@ -261,27 +261,23 @@ output:
 ```
 The output shows the paths of all files in `travel_guides/berlitz1` directory from `./written_2`.
 (`Source`: https://linuxhint.com/use-the-find-command-in-linux-to-search-files/)
-# The fourth `find` command-line options is `-size`.
-`-size` is used to find the file by its size. `b` means 512 Kb blocks. `c` means bytes. `k` means kilobytes. `M` means megabytes. `G` means gigabytes. 
-It is useful because we can search for the files based on their size. 
+# The fourth `find` command-line options is `-`.
+`-` is used to
 ## Example:
-1. Find the files by the size range.
+1.
 command:
 ```
 ```
-`find ./written_2/non-fiction -type f -size +40k -size +50k` find all of the files with the size range between 40 kilobytes to 50 kilobytes in `non-fiction` directory from `./written_2`. 
 output:
 ```
 ```
-The output shows the paths of all files in `travel_guides/berlitz1` directory from `./written_2`.
+The output shows
 2.
 command:
 ```
 ```
-`find ./written_2/non-fiction -type f -size +40k -size +50k` find all of the files with the size range between 40 kilobytes to 50 kilobytes in `non-fiction` directory from `./written_2`. 
 output:
 ```
 ```
-The output shows the paths of all files in `travel_guides/berlitz1` directory from `./written_2`.
+The output shows
 (`Source`: https://linuxhint.com/use-the-find-command-in-linux-to-search-files/)
-
