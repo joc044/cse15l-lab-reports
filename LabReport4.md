@@ -115,7 +115,7 @@ The `java -cp .:lib/hamcrest-core-1.3.jar:lib/junit-4.13.2.jar org.junit.runner.
 
 ![Image](nano.jpg)
 
-3) Edit the code file (Code change from `index1 += 1;` to `index2 += 1;`).
+3) Edit the code.(Code is changed from `index1 += 1;` to `index2 += 1;`)
 
 Keys pressed: `<Ctrl + w><r><e><t><u><r><n><space><r><e><s><u><l><t><Enter>`,`<Ctrl + w><r><e><t><u><r><n><space><r><e><s><u><l><t><Enter>`,`<up><up><right><right><right><right><right><right><right><right><Backspace><2><Ctrl + o><Enter>`,`<Ctrl + x>`
 
