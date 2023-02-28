@@ -34,7 +34,7 @@ text you want to type in might be slightly different than mine.)
 
 Keys pressed: `<Ctrl + r><g><i><t><space><c><l><o><n><e><enter>`
 
-The `git clone git@github.com:joc044/lab7.git` command was in the first line(lately) of the search history, so I directly press <enter> to access it.
+The `git clone git@github.com:joc044/lab7.git` command was in the first line(lately) of the search history, so I directly press `Enter` to access it.
 
 3) Clone successfully
 
@@ -82,11 +82,11 @@ Here, the text should be `javac -cp .:lib/hamcrest-core-1.3.jar:lib/junit-4.13.2
 
 (`Notice`: `Ctrl + r` is used to search your command history. Because I used javac command before, I can use this shortcuts to reduce my typing.)
 
-3) After making sure the text is match, press enter.
+3) After making sure the text is match, press Enter.
 
 Keys pressed: `<Ctrl + r><j><a><v><a><c><enter>`
 
-The `javac -cp .:lib/hamcrest-core-1.3.jar:lib/junit-4.13.2.jar *.java` command was in the first line(lately) of the search history, so I directly press <enter> to access it.
+The `javac -cp .:lib/hamcrest-core-1.3.jar:lib/junit-4.13.2.jar *.java` command was in the first line(lately) of the search history, so I directly press `Enter` to access it.
 
 ![Image](javac.jpg)
 
@@ -100,14 +100,14 @@ Here, the text should be `java -cp .:lib/hamcrest-core-1.3.jar:lib/junit-4.13.2.
 
 Keys pressed: `<Ctrl + r><j><a><v><a><space><enter>`
 
-The `java -cp .:lib/hamcrest-core-1.3.jar:lib/junit-4.13.2.jar org.junit.runner.JUnitCore ListExamplesTests` command was in the first line(lately) of the search history, so I directly press <enter> to access it.
+The `java -cp .:lib/hamcrest-core-1.3.jar:lib/junit-4.13.2.jar org.junit.runner.JUnitCore ListExamplesTests` command was in the first line(lately) of the search history, so I directly press `Enter` to access it.
 
 6) After pressing enter, the terminal runs the tests and demonstrates that they fail.
 
 ![Image](fail.jpg)
 
 # Step 4 - Edit the code file to fix the failing test
-1) Keys pressed: `<n><a><n><o><space><L><tab><.><j><tab><enter>`
+1) Keys pressed: `<n><a><n><o><space><L><tab><.><j><tab><Enter>`
 
 (`Notice`: After the first tab, `nano ListExamples` is auto completion. After the next tab, `nano ListExamples.java` is auto completion.)
 
@@ -117,7 +117,7 @@ The `java -cp .:lib/hamcrest-core-1.3.jar:lib/junit-4.13.2.jar org.junit.runner.
 
 3) Edit the code file (Code change from `index1 += 1;` to `index2 += 1;`).
 
-Keys pressed: `<Ctrl + w><r><e><t><u><r><n><space><r><e><s><u><l><t><enter>`,`<Ctrl + w><r><e><t><u><r><n><space><r><e><s><u><l><t><enter>`,`<up><up><right><right><right><right><right><right><right><right><Backspace><2><Ctrl + o><enter>`,`<Ctrl + x>`
+Keys pressed: `<Ctrl + w><r><e><t><u><r><n><space><r><e><s><u><l><t><Enter>`,`<Ctrl + w><r><e><t><u><r><n><space><r><e><s><u><l><t><Enter>`,`<up><up><right><right><right><right><right><right><right><right><Backspace><2><Ctrl + o><Enter>`,`<Ctrl + x>`
 
 (`Notice`: (1)`Ctrl + w` is used to search the text(return result) I type in after. (2)I did the step `Ctrl + w` twice is because I want to find the second result of the text(return result). (3)I use the `up` and `right` arrow to access the line I want to edit, then use `Backspace` to delete the text that is wrong, and type in the correct text(2). 
 (4)`Ctrl + o` is used to save the edited file. (5)`Ctrl + x` is used to exit nano.)
@@ -133,7 +133,7 @@ Here, the text should be `javac -cp .:lib/hamcrest-core-1.3.jar:lib/junit-4.13.2
 
 Keys pressed: `<Ctrl + r><j><a><v><a><c><enter>`
 
-The `javac -cp .:lib/hamcrest-core-1.3.jar:lib/junit-4.13.2.jar *.java` command was in the first line(lately) of the search history, so I directly press <enter> to access it.
+The `javac -cp .:lib/hamcrest-core-1.3.jar:lib/junit-4.13.2.jar *.java` command was in the first line(lately) of the search history, so I directly press `Enter` to access it.
 
 ![Image](nanojavac.jpg)
 
@@ -143,13 +143,13 @@ Here, the text should be `java -cp .:lib/hamcrest-core-1.3.jar:lib/junit-4.13.2.
 
 (`Notice`: `Ctrl + r` is used to search your command history. Because I used java command before, I can use this shortcuts to reduce my typing.)
 
-4) After making sure the text is match, press enter.
+4) After making sure the text is match, press Enter.
 
-Keys pressed: `<Ctrl + r><j><a><v><a><space><up><enter>`
+Keys pressed: `<Ctrl + r><j><a><v><a><space><up><Enter>`
 
 The `java -cp .:lib/hamcrest-core-1.3.jar:lib/junit-4.13.2.jar org.junit.runner.JUnitCore ListExamplesTests` command was 1 up in the search history,so I used up arrow to access it.
 
-5) After pressing enter, the terminal runs the tests and demonstrates that they succeed.
+5) After pressing Enter, the terminal runs the tests and demonstrates that they succeed.
 
 ![Image](succeed.jpg)
 
@@ -160,11 +160,11 @@ Here, the text should be `git add ListExamples.java`.
 
 (`Notice`: `Ctrl + r` is used to search your command history. Because I used git add command before, I can use this shortcuts to reduce my typing.)
 
-2) After making sure the text is match, press enter.
+2) After making sure the text is match, press Enter.
 
-Keys pressed: `<Ctrl + r><g><i><t><space><a><enter>`
+Keys pressed: `<Ctrl + r><g><i><t><space><a><Enter>`
 
-The `git add ListExamples.java` command was in the first line(lately) of the search history, so I directly press <enter> to access it.
+The `git add ListExamples.java` command was in the first line(lately) of the search history, so I directly press Enter to access it.
 
 ![Image](addfile.jpg)
 
@@ -174,11 +174,11 @@ Here, the text should be `git commit -m "Updated"`.
 
 (`Notice`: `Ctrl + r` is used to search your command history. Because I used git commit command before, I can use this shortcuts to reduce my typing.)
 
-4) After making sure the text is match, press enter.
+4) After making sure the text is match, press Enter.
 
-Keys pressed: `<Ctrl + r><g><i><t><space><c><o><enter>`
+Keys pressed: `<Ctrl + r><g><i><t><space><c><o><Enter>`
 
-The `git commit -m "Updated"` command was in the first line(lately) of the search history, so I directly press <enter> to access it.
+The `git commit -m "Updated"` command was in the first line(lately) of the search history, so I directly press `Enter` to access it.
 
 ![Image](commitfile.jpg)
 
@@ -188,10 +188,10 @@ Here, the text should be `git push origin main`.
 
 (`Notice`: `Ctrl + r` is used to search your command history. Because I used git push command before, I can use this shortcuts to reduce my typing.)
 
-6) After making sure the text is match, press enter.
+6) After making sure the text is match, press Enter.
 
-Keys pressed: `<Ctrl + r><g><i><t><space><p><enter>`
+Keys pressed: `<Ctrl + r><g><i><t><space><p><Enter>`
 
-The `git push origin main` command was in the first line(lately) of the search history, so I directly press <enter> to access it.
+The `git push origin main` command was in the first line(lately) of the search history, so I directly press `Enter` to access it.
 
 ![Image](pushfile.jpg)
