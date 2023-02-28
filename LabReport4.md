@@ -119,7 +119,7 @@ The `java -cp .:lib/hamcrest-core-1.3.jar:lib/junit-4.13.2.jar org.junit.runner.
 
 Keys pressed: `<Ctrl + w><r><e><t><u><r><n><space><r><e><s><u><l><t><Enter>`,`<Ctrl + w><r><e><t><u><r><n><space><r><e><s><u><l><t><Enter>`,`<up><up><right><right><right><right><right><right><right><right><Backspace><2><Ctrl + o><Enter>`,`<Ctrl + x>`
 
-(`Notice`: (1)`Ctrl + w` is used to search the text(return result) I type in after. (2)I did the step `Ctrl + w` twice is because I want to find the second result of the text(return result). (3)I use the `up` and `right` arrow to access the line I want to edit, then use `Backspace` to delete the text that is wrong, and type in the correct text(2). 
+(`Notice`: (1)`Ctrl + w` is used to search the text(return result) I type in after. (2)I did the step `Ctrl + w` twice is because I want to find the second result of the text(return result). (3)I use the `up` and `right` arrow to access the line I want to edit, then use `Backspace` to delete the text that is wrong, and type in the correct text. 
 (4)`Ctrl + o` is used to save the edited file. (5)`Ctrl + x` is used to exit nano.)
 
 # Step 5 - Run the tests, demonstrating that they now succeed
