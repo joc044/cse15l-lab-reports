@@ -164,7 +164,7 @@ Here, the text should be `git add ListExamples.java`.
 
 Keys pressed: `<Ctrl + r><g><i><t><space><a><Enter>`
 
-The `git add ListExamples.java` command was in the first line(lately) of the search history, so I directly press Enter to access it.
+The `git add ListExamples.java` command was in the first line(lately) of the search history, so I directly press `Enter` to access it.
 
 ![Image](addfile.jpg)
 
