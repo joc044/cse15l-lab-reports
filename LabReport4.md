@@ -23,11 +23,11 @@ If you have not set up this, please refer to the material of the week7 lab, or a
 
 # Step 2 - Clone your fork of the repository from your Github account
 ## Cloned the same repository before
-1) Use Ctrl + r to search the git clone command in the terminal and make sure the text shows up is match to the text you want to type in.
+1) Use `Ctrl + r` to search the git clone command in the terminal and make sure the text shows up is match to the text you want to type in.
 
 Here, the text should be `git clone git@github.com:joc044/lab7.git`.
 
-(`Notice`: Ctrl + r is used to search your command history. Because I cloned the same repository before, I can use this shortcuts to reduce my typing. Moreover, the 
+(`Notice`: `Ctrl + r` is used to search your command history. Because I cloned the same repository before, I can use this shortcuts to reduce my typing. Moreover, the 
 text you want to type in might be slightly different than mine.)
 
 2) After making sure the text is match, press enter.
