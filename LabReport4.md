@@ -6,7 +6,7 @@ in order to accomplish the command line tasks more efficiently.
 
 ![Image](OpenTerminal.jpg)
 
-2) Type in the following text in the terminal and press enter.
+2) Type in the following text in the terminal and press Enter.
 
 `$ ssh cs15lwi23ani@ieng6.ucsd.edu`
 
@@ -30,9 +30,9 @@ Here, the text should be `git clone git@github.com:joc044/lab7.git`.
 (`Notice`: `Ctrl + r` is used to search your command history. Because I cloned the same repository before, I can use this shortcuts to reduce my typing. Moreover, the 
 text you want to type in might be slightly different than mine.)
 
-2) After making sure the text is match, press enter.
+2) After making sure the text is match, press Enter.
 
-Keys pressed: `<Ctrl + r><g><i><t><space><c><l><o><n><e><enter>`
+Keys pressed: `<Ctrl + r><g><i><t><space><c><l><o><n><e><Enter>`
 
 The `git clone git@github.com:joc044/lab7.git` command was in the first line(lately) of the search history, so I directly press `Enter` to access it.
 
@@ -65,7 +65,7 @@ The `git clone git@github.com:joc044/lab7.git` command was in the first line(lat
 
 (`Notice`: You only need to type `git clone`. The rest of text can be pasted.)
 
-7) After making sure the text you type is correct, press enter.
+7) After making sure the text you type is correct, press Enter.
 
 8) Clone successfully
 
@@ -84,7 +84,7 @@ Here, the text should be `javac -cp .:lib/hamcrest-core-1.3.jar:lib/junit-4.13.2
 
 3) After making sure the text is match, press Enter.
 
-Keys pressed: `<Ctrl + r><j><a><v><a><c><enter>`
+Keys pressed: `<Ctrl + r><j><a><v><a><c><Enter>`
 
 The `javac -cp .:lib/hamcrest-core-1.3.jar:lib/junit-4.13.2.jar *.java` command was in the first line(lately) of the search history, so I directly press `Enter` to access it.
 
@@ -96,13 +96,13 @@ Here, the text should be `java -cp .:lib/hamcrest-core-1.3.jar:lib/junit-4.13.2.
 
 (`Notice`: `Ctrl + r` is used to search your command history. Because I used java command before, I can use this shortcuts to reduce my typing.)
 
-5) After making sure the text is match, press enter.
+5) After making sure the text is match, press Enter.
 
-Keys pressed: `<Ctrl + r><j><a><v><a><space><enter>`
+Keys pressed: `<Ctrl + r><j><a><v><a><space><Enter>`
 
 The `java -cp .:lib/hamcrest-core-1.3.jar:lib/junit-4.13.2.jar org.junit.runner.JUnitCore ListExamplesTests` command was in the first line(lately) of the search history, so I directly press `Enter` to access it.
 
-6) After pressing enter, the terminal runs the tests and demonstrates that they fail.
+6) After pressing Enter, the terminal runs the tests and demonstrates that they fail.
 
 ![Image](fail.jpg)
 
@@ -129,9 +129,9 @@ Here, the text should be `javac -cp .:lib/hamcrest-core-1.3.jar:lib/junit-4.13.2
 
 (`Notice`: `Ctrl + r` is used to search your command history. Because I used javac command before, I can use this shortcuts to reduce my typing.)
 
-2) After making sure the text is match, press enter.
+2) After making sure the text is match, press Enter.
 
-Keys pressed: `<Ctrl + r><j><a><v><a><c><enter>`
+Keys pressed: `<Ctrl + r><j><a><v><a><c><Enter>`
 
 The `javac -cp .:lib/hamcrest-core-1.3.jar:lib/junit-4.13.2.jar *.java` command was in the first line(lately) of the search history, so I directly press `Enter` to access it.
 
