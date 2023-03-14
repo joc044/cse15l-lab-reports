@@ -6,9 +6,9 @@ you should know that whenever you want to quit `less`, just press `q` to quit.)
 ## Before start:
 In order to show the `less` command-line options and its output easily, we need to set up our evironment first.
 
-1. Use Ctrl or Command + ` to open a new bash terminal in Visual Studio Code.
+1) Use Ctrl or Command + ` to open a new bash terminal in Visual Studio Code.
 
-2. Log into your course-specific ieng6 account:
+2) Log into your course-specific ieng6 account:
 
 ![Image](typingaccount.jpg)
 
@@ -16,18 +16,18 @@ In order to show the `less` command-line options and its output easily, we need 
 The letter after s is one. The letter after 5 is l, lowercase of L. 
 Remember to replace ani by the letters in your course-specific account.)
 
-3. Successful log in:
+3) Successful log in:
 
 ![Image](login.jpg)
 
 (`Notice`: You do not need to type the password for your ieng6 account since we have learned how to generate SSH keys for ieng6 in the week7 lab. 
 If you have not set up this, please refer to the material of the week7 lab, or ask TAs for help.)
 
-4. Use `cd lab7` to switch the current working directory to lab7.
+4) Use `cd lab7` to switch the current working directory to lab7.
 
 (`Notice`: If you do not have lab7 in your working directory, you can use this URL(`https://github.com/ucsd-cse15l-w23/lab7.git`) to clone it.)
  
-5. Complete set up the evironment and ready for showing less command-line.
+5) Complete set up the evironment and ready for showing less command-line.
 
 # The general syntax for the `less` command:
 1) `less file_path` is used to load a file into `less` and show the file's contents to the user.
